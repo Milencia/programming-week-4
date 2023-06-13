@@ -39,7 +39,6 @@ rankhospital <- function(state, outcome, num = "best") {
                                     ,]
     
     ## Return hospital name in that state with the given rank
-    ## 30-day death rate
     
     if (is.numeric(num) == TRUE) {
         rankedhospital <- orderedstatedata$Hospital.Name[num]
